@@ -185,6 +185,7 @@ def pregunta_02():
         y,
         test_size=100,
         random_state=123
+    )
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
     return X_train, X_test, y_train, y_test
