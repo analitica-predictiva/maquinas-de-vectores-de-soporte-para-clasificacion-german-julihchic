@@ -155,13 +155,13 @@ def pregunta_01():
     df = pd.read_csv('german.csv', sep=',')
 
     # Asigne la columna `default` a la variable `y`.
-    ____ = ____
+    y = df['default']
 
     # Asigne una copia del dataframe `df` a la variable `X`.
-    ____ = ____.____()
+    X = df.copy()
 
     # Remueva la columna `default` del DataFrame `X`.
-    ____.____(____)
+    X.drop('default')
 
     # Retorne `X` y `y`
     return X, y
