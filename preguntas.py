@@ -152,7 +152,7 @@ def pregunta_01():
     En esta función se realiza la carga de datos.
     """
     # Lea el archivo `german.csv` y asignelo al DataFrame `df`
-    df = ____
+    df = pd.read_csv('german.csv', sep=',')
 
     # Asigne la columna `default` a la variable `y`.
     ____ = ____
